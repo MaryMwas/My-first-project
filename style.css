@@ -1,0 +1,83 @@
+.naigation{
+    background-color: #00c6a9;
+    font-size: 16px;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+}
+.contacts ul{ 
+    display: flex;
+    list-style-type:none;
+    color: #55627b;
+}
+.contacts  ul li{
+    margin: 20px;
+}
+
+.fa {
+    color: #00c6a9;
+
+}
+.naigation{
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #fffeec;
+}
+.naigation li{
+    display: flex;
+    justify-content: center;
+}
+   .nav2{
+    display: flex;
+    justify-content: center;
+   }
+   .nav2 li{
+    margin:20px;
+
+   }
+   .nav{
+    background-color: white;
+    height:120%;
+    margin-left: 50px;
+    padding: 10PX;
+
+}
+   .img1{
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+    margin-left: 0px;
+   }
+    .login-signup{
+      position:absolute;
+      right:5%;
+      top:20%;
+    }
+    .fa-user{
+        color: white;
+        font-size: 25px;
+        margin-right:10px;
+    }
+    .fa-sign{
+        color: white;
+        font-size: 25px;
+    }
+
+    .fa-search{
+        color: white;
+    }
+    .fa-search{
+        position: absolute;
+        top:30%;
+        right: -10%;
+        font-size: 25px;
+        
+
+    }
+    .img2 img{
+        width:100%;
+        
+    }
+  
