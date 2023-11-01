@@ -64,7 +64,9 @@
         color: white;
         font-size: 25px;
     }
-
+.fa-bars{
+    color: black;
+}
     .fa-search{
         color: white;
     }
@@ -80,4 +82,57 @@
         width:100%;
         
     }
+    #check{
+        display: none;
+    }
   
+    @media  (max-width:600px){
+    .contacts ul li{
+        color: red;
+
+    }
+    .nav3{
+        /* height:30px; */
+        /* border: 2px solid red; */
+    }
+    .nav2 li{
+        transition: all 0.5s ease-in-out;
+
+    }
+    #check:checked ~ .nav2{
+        height:30px; 
+        display: none;
+
+    }
+    .hambuger-menu{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+
+    }
+    .fa-bars{
+        font-size: 30px;
+        cursor: pointer;
+    }
+.nav2 {
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    height: 600px;
+}
+.nav{
+    display: none;
+}
+.login-signup {
+    position: absolute;
+left: 0px;
+top:40%;
+}
+
+}
+    @media (min-width:600px) {
+        .hambuger-menu{
+            display: none;
+        }
+        
+    }
